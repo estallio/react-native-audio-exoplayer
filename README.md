@@ -1,6 +1,7 @@
-# Changes since fork:
+#### Changes since fork:
 
-- Can play local files on Android - Swapped out RawDataSource with DefaultDataSource.
+- Feb. 2020:
+  - Fixed a bug where local files on android are not played properly. For this, `RawDataSource` was swapped with `DefaultDataSource` in the library file.
 
 
 # react-native-audio-exoplayer
